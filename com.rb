@@ -15,8 +15,8 @@ class Com < Formula
 
 
   def install
-	  :using => "python@x.y"
+	  
 	  virtualenv_install_with_resources
-  end
+  end:using => "python@x.y"
 
 end
