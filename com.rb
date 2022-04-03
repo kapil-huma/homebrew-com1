@@ -14,7 +14,7 @@ class Com < Formula
   end
 
   def install
-    system "python", *Language::Python.setup_install_args(setup.py)
+    system "python", *Language::Python.setup_install_args(prefix)
 
   end
 
