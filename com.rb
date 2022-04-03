@@ -14,8 +14,8 @@ class Com < Formula
   end
 
   def install
-  libexec.install "setup.py", "setup.py"
-  bin.install_symlink libexec/"setup.py" => "setup.py"
+    bin.install "setup.py"
+
   end
 
   test do
