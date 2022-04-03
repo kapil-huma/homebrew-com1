@@ -14,7 +14,7 @@ class Com < Formula
   end
 
   def install
-    system Formula["python@3.x"].opt_bin/"python3", *Language::Python.setup_install_args(prefix)
+    system "python", *Language::Python.setup_install_args(setup.py)
 
   end
 
